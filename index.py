@@ -13,10 +13,10 @@ app = Flask(__name__)
 # ============================================================
 # CẤU HÌNH (Chỉnh qua Environment Variables trên Vercel hoặc sửa trực tiếp)
 # ============================================================
-INFO_UID = os.environ.get("INFO_UID", "7184905967").strip()
+INFO_UID = os.environ.get("INFO_UID", "5534997371").strip()
 INFO_PASS = os.environ.get(
     "INFO_PASS",
-    "G962167904",
+    "162B101D6F45E0927FC346A67EA28EBC687919417802636ACA373B071BFADA3B",
 ).strip()
 API_SECRET_KEY = os.environ.get("API_SECRET_KEY", "").strip()
 
